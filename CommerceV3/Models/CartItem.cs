@@ -13,7 +13,7 @@ namespace CommerceV3.Models
 		[ForeignKey("CartId")]
 		public Cart Cart { get; set; }
 
-		public string Productıd { get; set; }
+		public string ProductId { get; set; }
 		[ForeignKey("ProductId")]
 		public Product Product { get; set; }
 

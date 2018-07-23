@@ -8,7 +8,7 @@ namespace CommerceV3.Models
 {
 	public class MenuItem
 	{
-		public string ıd { get; set; }
+		public string Id { get; set; }
 		public string Name { get; set; }
 		public string Url { get; set; }
 		public string Target { get; set; }
